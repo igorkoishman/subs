@@ -130,7 +130,7 @@ if __name__ == "__main__":
     task = sys.argv[4] if len(sys.argv) > 4 else "transcribe"
     output_languages = sys.argv[5:] if len(sys.argv) > 5 else []
     # Use your real Google API key here!
-    GOOGLE_API_KEY = "AIzaSyAAMh0z9akm4Z2QlW12qXc4Ntch9gVMzb8"
+    GOOGLE_API_KEY = "key"
     main(
         sys.argv[1],
         sys.argv[2],
